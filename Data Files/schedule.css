@@ -1,0 +1,39 @@
+table.schedule{
+    border: 3px outset black;
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9em;
+}
+table.schedule thead th, tbody tr th, td{
+    border: 1px solid gray;
+    font-weight: bold;
+}
+table.schedule thead th{
+    background: linear-gradient(to right, #cbf6db, #9bc472, #f5beb4);
+    color: white;    
+    height: 30px;
+}
+table.schedule td{
+    text-align: center;
+}
+table.schedule tr th{   
+    width: 30px;
+    background: linear-gradient(to right, #cbf6db, #9bc472, #f5beb4);   
+}
+table.schedule tr{
+    background: linear-gradient(to right, #1b6535, #a8c66c, #e1dd72); 
+}
+table.schedule caption p{
+    font-size: 30px;
+    font-weight: bold;
+    width: 600px;
+}
+table.schedule caption p:hover{
+    border: 2px dashed black;
+    transition: border 1s ease;
+}
+table.schedule{
+    box-shadow: gray 10px 10px 10px;
+}
+
+
