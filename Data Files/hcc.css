@@ -16,6 +16,7 @@ header img {
   margin-left: 20%;
 } */
 div#nav nav ul {
+  margin-left: 10%;
   display: block;
   width: 100%;
   float: left;
@@ -32,6 +33,7 @@ nav ul li a {
   float: left;
   margin-right: 5px;
   background-color: aquamarine;
+  text-align: center;
 }
 nav ul li a.item1,
 .item5,
